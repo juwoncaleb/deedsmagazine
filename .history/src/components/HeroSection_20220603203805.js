@@ -9,7 +9,7 @@ function HeroSection() {
   }, 3000);
   return (
     <div className={hero ? " hero" : "heroLogic"}>
-      <img src="./hero.jpg"/>
+      <im
     </div>
   )
 }

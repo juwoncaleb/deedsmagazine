@@ -7,7 +7,7 @@ function Article() {
   return (
     <div>
         <Header/>
-        {/* <Coming/> */}
+        <Comi
         <HeroSection/>
         <LandingPage2/>
         

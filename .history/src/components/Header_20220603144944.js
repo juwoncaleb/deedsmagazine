@@ -16,7 +16,9 @@ function Header() {
         className="menu"
         src="./menu.png"
       />
-      
+      <div className='come'>
+        <p className='comm'>COMING SOON</p>
+    </div>
     </div>
    </div>
     

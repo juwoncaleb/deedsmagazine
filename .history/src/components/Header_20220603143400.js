@@ -12,11 +12,14 @@ function Header() {
       
       
       <img
-        onClick={() => router.push("/Article")}
+        onClick={, setActive(false)}
         className="menu"
         src="./menu.png"
       />
       
+    </div>
+    <div className='come'>
+        <p className='comm'>COMING SOON</p>
     </div>
    </div>
     

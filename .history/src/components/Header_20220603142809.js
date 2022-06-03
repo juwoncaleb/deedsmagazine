@@ -1,25 +1,15 @@
-import React,{useState} from "react";
-import { useRouter } from "next/router";
+import React from "react";
 
 function Header() {
-  const router = useRouter();
-  const [active, setActive]= useState(true)
-
   return (
-   <div>
-      <div className="flex bg-black justify-between">
+    <div className="flex bg-black justify-between">
       <img onClick={() => router.push("/")} className="top" src="./nav.png" />
-      
-      
       <img
         onClick={() => router.push("/Article")}
         className="menu"
         src="./menu.png"
       />
-      
     </div>
-   </div>
-    
   );
 }
 

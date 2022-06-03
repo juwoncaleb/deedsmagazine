@@ -3,11 +3,10 @@ import { useRouter } from "next/router";
 
 function Header() {
   const router = useRouter();
-  const [active, setActive]= useState(true)
+  const [active, setActive]= useState(tr)
 
   return (
-   <div>
-      <div className="flex bg-black justify-between">
+    <div className="flex bg-black justify-between">
       <img onClick={() => router.push("/")} className="top" src="./nav.png" />
       
       
@@ -16,10 +15,7 @@ function Header() {
         className="menu"
         src="./menu.png"
       />
-      
     </div>
-   </div>
-    
   );
 }
 

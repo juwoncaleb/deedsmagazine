@@ -18,6 +18,9 @@ function Header() {
       />
       
     </div>
+    <div className='come'>
+        <p className='comm'>COMING SOON</p>
+    </div>
    </div>
     
   );

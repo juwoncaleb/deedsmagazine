@@ -6,8 +6,7 @@ function Header() {
   const [active, setActive]= useState(true)
 
   return (
-   <div>
-      <div className="flex bg-black justify-between">
+    <div className="flex bg-black justify-between">
       <img onClick={() => router.push("/")} className="top" src="./nav.png" />
       
       
@@ -16,9 +15,7 @@ function Header() {
         className="menu"
         src="./menu.png"
       />
-      
     </div>
-   </div>
     
   );
 }

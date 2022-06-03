@@ -10,14 +10,25 @@ function Header() {
       <div className="flex bg-black justify-between">
       <img onClick={() => router.push("/")} className="top" src="./nav.png" />
       
-      
-      <img
-        onClick={() => router.push("/Article")}
+      <div >
+        
+      <img onClick={() => {
+            setActive(!active)
+        
         className="menu"
         src="./menu.png"
       />
+      </div>
       
     </div>
+   
+   
+    <div className={active ? "come" : "no"}>
+        <p className='comm'>COMING SOON</p>
+    </div>
+   
+   
+   
    </div>
     
   );

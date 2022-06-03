@@ -1,4 +1,5 @@
 import React from 'react'
+import Coming from '../components/Coming'
 import Header from '../components/Header'
 import HeroSection from '../components/HeroSection'
 import LandingPage2 from '../components/LandingPage2'

@@ -159,9 +159,6 @@ display: flex;
 
     
 }
-.no{
-    display: none;
-}
 .come{
     height: 100vh;
     color: white;
@@ -172,9 +169,7 @@ display: flex;
 .comm{
     position: relative;
     top: 300px;
-    font-family: 'Mukta', sans-serif;
-
-    font-weight: 800;
+    fon
 }
 .icon{
     margin-left: auto;

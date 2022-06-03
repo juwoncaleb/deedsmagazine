@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .top{
-    height: 70px;
+    width: 150px;
 }
 /* LOADER */
 .loaderPage{
@@ -42,7 +42,7 @@
     height: 100vh;
 }
 .header{
-    height: 70px;
+    height: ;
 }
 .landi{
     display: none;
@@ -214,4 +214,5 @@ display: flex;
     top: 180px;
 }
 .menu{
-height: 70px;}
+    width: 50px;
+}

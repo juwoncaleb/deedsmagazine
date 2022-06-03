@@ -7,7 +7,7 @@ function Header() {
 
   return (
    <div>
-      <div className="flex bg-black justify-between header">
+      <div className="flex bg-black justify-between">
       <img onClick={() => router.push("/")} className="top" src="./nav.png" />
       
       <img

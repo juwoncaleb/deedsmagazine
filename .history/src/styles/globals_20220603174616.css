@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .top{
-    height: 70px;
+    height: ;
 }
 /* LOADER */
 .loaderPage{
@@ -214,4 +214,5 @@ display: flex;
     top: 180px;
 }
 .menu{
-height: 70px;}
+    width: 50px;
+}

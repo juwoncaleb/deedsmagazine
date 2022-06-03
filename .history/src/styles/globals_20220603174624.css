@@ -214,4 +214,5 @@ display: flex;
     top: 180px;
 }
 .menu{
-height: 70px;}
+    width: 50px;
+}

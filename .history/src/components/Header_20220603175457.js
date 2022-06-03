@@ -12,7 +12,7 @@ function Header() {
       
       <img
         onClick={() => router.push("/Article")}
-        className="menu mt-1"
+        className="menu"
         src="./menu.png"
       />
       

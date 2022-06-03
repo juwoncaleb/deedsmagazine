@@ -129,7 +129,7 @@ const [land , setLand] = useState(true)
         <div data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1000" className="flex justify-around relative top-16 mt-20 ">
-          <img  className="image3" src="https://ik.imagekit.io/juwoncaleb/i4_MhBqaJhZB.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654266844375" />
+          <img  className="image3" src="./img/i4.jpg" />
         </div>
       </div>
       <div className="page5">
@@ -153,7 +153,7 @@ const [land , setLand] = useState(true)
         <div data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1000" className="flex justify-around relative lastimage ">
-          <img  className="image3" id="lastimage" src="https://ik.imagekit.io/juwoncaleb/i5_B0CWQvzQO.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654266710921" />
+          <img  className="image3" id="lastimage" src="./img/i5.jpg" />
         </div>
       </div>
       <p className="interview lastText">

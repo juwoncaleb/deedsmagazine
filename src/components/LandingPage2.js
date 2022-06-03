@@ -40,7 +40,7 @@ const [land , setLand] = useState(true)
           <br />
           <br />
           It’s no surprise the fast-rising star got to grace the O2 Arena with
-          sounds from his EP titled “ LV N ATTN '' released on the 4th of June
+          sounds from his EP titled “ LV N ATTN " released on the 4th of June
           2021. At the Wizkid in O2 concert, the artist got to perform a number
           of his singles, including his hit song with Wizkid titled after the EP
           LV N ATTN. Since his performance, Lojay has been booked and busy, from
@@ -60,9 +60,8 @@ const [land , setLand] = useState(true)
           <br />
         </p>
         <div  className="grid  justify-around relative top-1 imageSection ">
-          <img  className="i1" id="image1" src="https://ik.imagekit.io/juwoncaleb/i1_UNDLcMYeg.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654266784432" />
-          <img className="i1" id="image2" src="https://ik.imagekit.io/juwoncaleb/i2_vykWa0GjV.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654266862838" />
-
+          <img  className="i1" id="image1" src="./i1.jpg" />
+          <img className="i1" id="image2" src="./i2.jpg"  />
           
         </div>
       </div>
@@ -102,7 +101,7 @@ const [land , setLand] = useState(true)
         <div data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1000" className="flex justify-around relative top-16 ">
-          <img  className="image3" src="https://ik.imagekit.io/juwoncaleb/i3_cIpPtICiZ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654266794135" />
+          <img  className="image3" src="./i3.jpg" />
         </div>
       </div>
 
@@ -129,7 +128,7 @@ const [land , setLand] = useState(true)
         <div data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1000" className="flex justify-around relative top-16 mt-20 ">
-          <img  className="image3" src="https://ik.imagekit.io/juwoncaleb/i4_MhBqaJhZB.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654266844375" />
+          <img  className="image3" src="./i4.jpg" />
         </div>
       </div>
       <div className="page5">
@@ -153,7 +152,7 @@ const [land , setLand] = useState(true)
         <div data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1000" className="flex justify-around relative lastimage ">
-          <img  className="image3" id="lastimage" src="https://ik.imagekit.io/juwoncaleb/i5_B0CWQvzQO.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654266710921" />
+          <img  className="image3" id="lastimage" src="./i5.jpg" />
         </div>
       </div>
       <p className="interview lastText">
@@ -176,13 +175,14 @@ const [land , setLand] = useState(true)
       <div className="footer ">
         <img className="logo" src="./logo.png/" />
 
-        <div className="flex  socials">
-        <a className="icon" href="https://instagram.com/deedsmagazine?igshid=YmMyMTA2M2Y="><img className="insta icon" src="./intsa.png" /></a>
-        <a className="icon" href="https://twitter.com/deedsmag?s=11&t=5YOepGCrPNzopfzWEZ62Hw1"><img className="twi icon" src="./twi.png" /></a>
+        <div className="flex justify-around socials">
+        <a  href="https://instagram.com/deedsmagazine?igshid=YmMyMTA2M2Y="><img className="instagram" src="./ig.png" /></a>
+        
+        <a  href="https://twitter.com/deedsmag?s=11&t=5YOepGCrPNzopfzWEZ62Hw1"><img className="twitter" src="./twi.png" /></a>
 
-        <a className="icon" href="https://music.apple.com/profile/DeedsMag"><img className="twi icon" src="./apple.png" /></a>
+        <a  href="https://music.apple.com/profile/DeedsMag"><img className="app" src="./apple.png" /></a>
 
-        <a className="icon" href="https://open.spotify.com/user/31d6bpy43otddkhegiqqc4dhgd3u?si=9cd9450348614e73"><img className="spot icon" src="./spot.png" /></a>
+        <a  href="https://open.spotify.com/user/31d6bpy43otddkhegiqqc4dhgd3u?si=9cd9450348614e73"><img className="spotify" src="./spot.png" /></a>
 
          
 

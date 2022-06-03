@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loader{
+    background-image: url("./loader.p");
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+}

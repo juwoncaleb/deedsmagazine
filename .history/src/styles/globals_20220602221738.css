@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* LOADER */
+.loaderPage{
+    background-color: black;
+    height: 100vh;
+}
+.loaderPage2{
+    display: none;
+}
+.loader{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+top: 200px;    
+}
+
+/* HERO */
+.hero{
+    background-image: u;
+}

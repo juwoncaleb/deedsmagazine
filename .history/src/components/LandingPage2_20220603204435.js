@@ -22,11 +22,11 @@ const [land , setLand] = useState(true)
         <br />
         <br />
 
-        <p className="MainText text-3xl md:text-5xl relative bottom-10">
+        <p className="MainText text-3xl md:text-5xl ">
           THE JOURNEY SO <br /> FAR <br /> LOJAY
         </p>
         <br />
-        <p className="mainAuthor relative bottom-6">
+        <p className="mainAuthor">
           BY CHIKA ONUBOGU <br />2 JUNE 2022
         </p>
         <br />

@@ -26,7 +26,7 @@ const [land , setLand] = useState(true)
           THE JOURNEY SO <br /> FAR <br /> LOJAY
         </p>
         <br />
-        <p className="mainAuthor relative bottom-6">
+        <p className="mainAuthor">
           BY CHIKA ONUBOGU <br />2 JUNE 2022
         </p>
         <br />

@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top{
+    width: 150px;
+}
+/* LOADER */
+.loaderPage{
+    background-color: black;
+    height: 100vh;
+}
+.loaderPage2{
+    display: none;
+}
+.loader{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 150px;
+
+    position: relative;
+top: 200px;    
+}
+.landi{
+    display: none;
+}
+
+/* HERO */
+.hero{
+   
+   background-image: url('../../public/hero.png');
+  min-height: 80vh;
+  background-attachment: fixed;
+
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 69%;
+}
+.heroLogic{
+    display: none;
+}
+.paralax{
+    background-color:red;
+}
+/* PAGE 2 */
+.author{
+    font-style: italic;
+    font-family: 'Mukta', sans-serif;
+
+}
+.MainText{
+   text-align: center; 
+   font-weight: 800;
+   font-family: 'Mukta', sans-serif;
+
+}
+.interview{
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+margin-right: auto;
+max-width: 900px;
+font-family: 'Mukta', sans-serif;
+
+}#des{
+    text-align: center;
+    margin-right: 20px !important;
+    
+}
+.footer{
+    position: relative;
+    top: 230px;
+    height: 300px;
+    background-color: black;
+}
+.page2{
+    color: white;
+    background-color: #040200;
+}
+.rod{
+    font-family: 'Play', sans-serif;
+
+}
+.page3{
+    color: white;
+
+    background-color: #040200;
+}
+.page4{
+    background-color: #040200;
+    color: aliceblue;
+}
+.page5{
+    color: white;
+    background-color: #040200;
+}
+.insta{
+    height: 15px;
+    position: relative;
+    top: 6px;
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50px;
+}
+.socials{
+    position: relative;
+    top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    
+}
+.icon{
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainAuthor{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+
+}
+.verse{
+    position: relative;
+    top: 150px;
+}
+.last{
+    position: relative;
+    top: 170px; 
+}
+.lastText{
+    position: relative;
+    top: 190px;  
+}

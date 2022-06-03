@@ -6,8 +6,6 @@
     position: relative;
     top: 10px;
     height: 30px;
-    left: 10px;
-
 }
 /* LOADER */
 .loaderPage{
@@ -237,6 +235,7 @@ position: relative;
 .instagram{
     position: relative;
     top: 7px;
+    left: 10px;
     height: 32.5px;
 }
 .twitter{

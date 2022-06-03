@@ -175,7 +175,7 @@ const [land , setLand] = useState(true)
       <div className="footer ">
         <img className="logo" src="./logo.png/" />
 
-        <div className="flex justify-around socials mt-10">
+        <div className="flex justify-around socials mt">
         <a  href="https://instagram.com/deedsmagazine?igshid=YmMyMTA2M2Y="><img className="instagram" src="./ig.png" /></a>
         
         <a  href="https://twitter.com/deedsmag?s=11&t=5YOepGCrPNzopfzWEZ62Hw1"><img className="twitter" src="./twi.png" /></a>

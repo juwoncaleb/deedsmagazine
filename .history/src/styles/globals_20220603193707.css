@@ -6,8 +6,6 @@
     position: relative;
     top: 10px;
     height: 30px;
-    left: 10px;
-
 }
 /* LOADER */
 .loaderPage{
@@ -223,9 +221,6 @@ display: flex;
 }
 .menu{
 height: 30px;
-position: relative;
-    top: 10px;
-    right: 12px;
 }
 
 @media only screen and (min-width: 768px){

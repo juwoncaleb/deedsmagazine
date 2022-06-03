@@ -3,11 +3,7 @@
 @tailwind utilities;
 
 .top{
-    position: relative;
-    top: 10px;
     height: 30px;
-    left: 10px;
-
 }
 /* LOADER */
 .loaderPage{
@@ -46,7 +42,7 @@
     height: 100vh;
 }
 .header{
-    height: 60px;
+    height: 40px;
 }
 .landi{
     display: none;
@@ -223,9 +219,6 @@ display: flex;
 }
 .menu{
 height: 30px;
-position: relative;
-    top: 10px;
-    right: 12px;
 }
 
 @media only screen and (min-width: 768px){
@@ -249,5 +242,4 @@ position: relative;
 .spotify{
     height: 60px;
     position: relative;
-    bottom: 10px;
 }
